@@ -1,38 +1,14 @@
-name: dstoolbox
+name: project-env
 channels:
   - conda-forge
-  - defaults
+  - anaconda
 dependencies:
-  - certifi=2020.6.20
-  - intel-openmp=2023.1.0
-  - joblib=1.2.0
-  - libblas=3.9.0
-  - libcblas=3.9.0
-  - libhwloc=2.9.1
-  - libiconv=1.17
-  - liblapack=3.9.0
-  - libxml2=2.10.4
-  - libzlib=1.2.13
-  - m2w64-gcc-libgfortran=5.3.0
-  - m2w64-gcc-libs=5.3.0
-  - m2w64-gcc-libs-core=5.3.0
-  - m2w64-gmp=6.1.0
-  - m2w64-libwinpthread-git=5.0.0.4634.697f757
-  - mkl=2022.1.0
-  - msys2-conda-epoch=20160418
-  - numpy=1.19.5
-  - pip=20.0.2
-  - pthreads-win32=2.9.1
-  - python=3.6.15
-  - python_abi=3.6
-  - scikit-learn=0.22.1
-  - scipy=1.5.3
-  - setuptools=49.6.0
-  - tbb=2021.9.0
-  - ucrt=10.0.22621.0
-  - vc=14.3
-  - vc14_runtime=14.34.31931
-  - vs2015_runtime=14.34.31931
-  - wheel=0.34.2
-  - wincertstore=0.2
+  - python>=3.10
+  - pip
+  - jupyterlab
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - seaborn
+  
 prefix: C:\Users\fuyaw\miniconda3\envs\dstoolbox
